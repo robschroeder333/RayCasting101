@@ -532,6 +532,7 @@ function makeMove(input){
 	input.preventDefault()
 	ctx.clearRect(-15, -15, canvas.width, canvas.height)
 	castRays()
+	// drawTopDown()
 	drawFirstPerson()
 	if (stage > stages.length - 1) {
 		ctx.fillStyle = 'white'
